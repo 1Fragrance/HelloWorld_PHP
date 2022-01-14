@@ -8,12 +8,11 @@
 
 @include('components.nav')
 
-@yield('content')
+<main role="main">
+    @yield('content')
+</main>
 
 @include('components.footer')
-
 @include('components.footer-scripts')
-
-
 </body>
 </html>

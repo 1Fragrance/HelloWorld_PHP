@@ -1,3 +1,4 @@
+<header>
 <div class="collapse bg-inverse" id="navbarHeader">
     <div class="container">
         <div class="row">
@@ -18,9 +19,23 @@
 </div>
 <div class="navbar navbar-inverse bg-inverse">
     <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand">Store app</a>
+        <a href="/" class="navbar-brand">Store app</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
 </div>
+
+
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000" style="position: absolute; top: 1rem; right: 1rem;">
+        <div class="toast-header">
+            <strong class="mr-auto">Notification</strong>
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="toast-body">
+            Product was successfully added to your cart
+        </div>
+    </div>
+</header>
